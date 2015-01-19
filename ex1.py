@@ -13,3 +13,4 @@ print 'The shape of c is', c.shape
 print 'The type of elements in the array is', c.dtype
 print 'The square of the ideal matrix is' 
 print np.dot(c,c)
+print 'Dimension', c.ndim
