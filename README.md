@@ -1,1 +1,1 @@
-# numpy-programs
+# OpenCV & numpy
