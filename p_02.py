@@ -9,8 +9,9 @@ k = cv2.waitKey(0)
 # if ESC key is pressed exit
 if k == 27:
     cv2.destroyAllWindows()
-else:
-    # if 's' is pressed save image and exit
+# if 's' is pressed save image and exit
+elif k == ord('s'):
+	# save the image as bitmap image 
     cv2.imwrite('Car.bmp', img)
     cv2.destroyAllWindows()
     
