@@ -38,7 +38,7 @@ The pixel at (53,76) becomes : '''
 img[53,76,0] = 255
 print img[53,76]
 
-print '''Now lets change the Blue value for all pixels at
+print '''Now, lets change the Blue value for all pixels at
 positions 40 - 52 in the first dimension and at 
 positions 63 - 75 in second dimension of the Image'''
 for i in range(40,52):
