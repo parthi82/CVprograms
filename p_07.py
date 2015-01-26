@@ -44,6 +44,8 @@ positions 63 - 75 in second dimension of the Image'''
 for i in range(40,52):
 	for j in range(63,75):
 		img[i,j,0] = 255
+		
+print 
 
 print 'Yes, See the image !'     
 cv2.imshow('Car', img)
