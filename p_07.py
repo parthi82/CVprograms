@@ -23,12 +23,15 @@ print '''After changing the value of blue to 255,
          The pixel at (53,76) becomes : '''
 img[53,76,0] = 255
 print img[53,76]
+print ''' Now lets change the Blue value for all pixels at
+          positions 40 - 52 in the first dimension and at 
+          positions 63 - 75 in second dimension of the Image'''
 
 for i in range(40,52):
-	for j in range(63):
+	for j in range(63,75):
 		img[i,j,0] = 255
 
-print 'Yes, see the image !'     
+print 'Yes, See the image !'     
 cv2.imshow('Car', img)
-cv2.waitKey(0)
+cv2.waitKey(5000)
 cv2.destroyAllWindows()
