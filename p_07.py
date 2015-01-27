@@ -13,6 +13,9 @@ print img.ndim
 print 'The Shape of the Image : '
 print img.shape
 
+print 'The Total number of pixels in the Image : '
+print img.size
+
 print 'The array of the Image : '
 print img
 
