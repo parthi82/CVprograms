@@ -1,4 +1,5 @@
 import numpy as np 
+# Create Array with values from 0 to 9
 a = np.arange(10)
 print 'The numbers from 0 to 9 are :'
 print a
