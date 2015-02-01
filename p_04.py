@@ -15,7 +15,8 @@ while(True):
 
 	# display the resulting frame
 	cv2.imshow('frame captured', gray)
-
+     
+    # Press 'q' to quit 
 	if cv2.waitKey(1) & 0xFF == ord('q'):
          break
 
