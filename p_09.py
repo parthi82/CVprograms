@@ -13,6 +13,7 @@ cv2.imshow('merged image....', img2)
 cv2.waitKey(2800)
 
 # more efficient way using numpy
+# ':' indicates the use of all items in that axis
 b = img[:, :, 0]
 g = img[:, :, 1]
 r = img[:, :, 2]
