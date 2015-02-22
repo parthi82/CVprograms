@@ -5,7 +5,7 @@ s, img = cam.read()
 winName = "Movement Indicator"
 cv2.namedWindow(winName, cv2.CV_WINDOW_AUTOSIZE)
 
-# Capture and show frames till ESC Key is pressed
+# Capture and show frames until ESC Key is pressed
 while s:
     cv2.imshow( winName,img )
     s, img = cam.read()
